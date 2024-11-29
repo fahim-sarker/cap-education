@@ -1,0 +1,128 @@
+#about{
+    background-color: #121534;
+}
+.about-left{
+    position: relative;
+}
+.Aboutbg1{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+.Aboutbg2{
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+}
+.about-card{
+    background-color: #121534 !important;
+    height: 121px;
+    width: 388px;
+    padding: 22px 0 22px 38px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    display: flex !important;
+    align-items: center;
+    gap: 20px;
+}
+.abcard-img{
+    height: 76px;
+    width: 76px;
+    background-color: #F57005;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.abcard-text p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Urbanist", serif !important;
+    color: #fff;
+}
+.abcard-text a{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Urbanist", serif !important;
+    color: #4F5DE4;
+    text-decoration: none;
+}
+.about-right a{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Urbanist", serif !important;
+    color: #4F5DE4;
+    text-decoration: none;
+    cursor: pointer;
+}
+.about-right h2{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Urbanist", serif !important;
+    color: #fff;
+    padding-top: 29px;
+}
+.about-right p{
+    font-size: 16px;
+    font-family: "Urbanist", serif !important;
+    color: #fff;
+    padding-top: 10px;
+    line-height: 24px;
+}
+.about-right img{
+    margin: 40px 0;
+}
+
+.aboutright-card{
+    height: 124px;
+    width: 642px;
+    padding: 22px 0 22px 24px;
+    border-radius: 23px;
+    -webkit-border-radius: 23px;
+    -moz-border-radius: 23px;
+    -ms-border-radius: 23px;
+    -o-border-radius: 23px;
+    display: flex !important;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid  #FF7200;
+    margin-bottom: 10px;
+}
+.rightabcard-img{
+    height: 76px;
+    width: 76px;
+    background-color: #13194F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 22px;
+    -webkit-border-radius: 22px;
+    -moz-border-radius: 22px;
+    -ms-border-radius: 22px;
+    -o-border-radius: 22px;
+}
+.rightcard-text p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Urbanist", serif !important;
+    color: #fff;
+    width: 479px;
+}
+.rightcard-text h5{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Urbanist", serif !important;
+    color: #fff;
+    width: 479px;
+}

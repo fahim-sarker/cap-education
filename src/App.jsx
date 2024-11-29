@@ -1,5 +1,10 @@
-import Banner from "./components/menu/Banner/Banner"
+
+import About from "./components/About/About"
+import Banner from "./components/Banner/Banner"
+import Category from "./components/Category/Category"
+import Course from "./components/Course/Course"
 import Menu from "./components/menu/Menu"
+import Service from "./components/Service/Service"
 
 
 function App() {
@@ -8,6 +13,10 @@ function App() {
    <>
     <Menu/>
     <Banner/>
+    <Service/>
+    <About/>
+    <Category/>
+    <Course/>
    </>
   )
 }

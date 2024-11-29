@@ -1,0 +1,133 @@
+#course{
+    background-color: #121745;
+    padding-top: 120px;
+    position: relative;
+}
+.courseouter{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.course-text h4{
+    font-size: 24px;
+    font-weight: 700;
+    color: #4F5DE4;
+    font-family: "Urbanist", serif;
+    text-align: center;
+}
+.course-text h3{
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    font-family: "Urbanist", serif;
+    text-align: center;
+}
+.course-card{
+    margin-top: 220px !important;
+}
+.course-card1{
+    padding: 30px;
+    background-color: #000324;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    position: relative;
+    margin-bottom: 180px;
+}
+.course-card1 p{
+    background-color: #4F5DE4;
+    width: 74px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 14px;
+    font-family: "Urbanist", serif;
+    font-weight: 500;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.review{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 10px 0;
+}
+.review li{
+    color: #F57005;
+}
+.ultext{
+   color: #fff !important;
+   margin-top: 5px;
+}
+.course-card1 h3{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Urbanist", serif;
+    color: #fff;
+    line-height: 29px;
+    padding-bottom: 20px;
+}
+.minicart{
+    background-color: #121745;
+    padding: 12px 19px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.mini1{
+    height: 44px;
+    width: 44px;
+    background-color: #35527D;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.mini2 h6{
+    font-size: 16px;
+    font-family: "Urbanist", serif;
+    font-weight: 400;
+    color: #fff;
+}
+.mini3 h6{
+    font-size: 16px;
+    font-family: "Urbanist", serif;
+    font-weight: 400;
+    color: #F57005;
+}
+.mini2{
+    margin-left: 20px;
+}
+.mini3{
+    margin-left: 50px;
+}
+.mini2 h5{
+    font-size: 20px;
+    font-family: "Urbanist", serif;
+    font-weight: 700;
+    color: #fff;
+}
+.mini3 h5{
+    font-size: 20px;
+    font-family: "Urbanist", serif;
+    font-weight: 700;
+    color: #4F5DE4;
+}
+.corse{
+    position: absolute;
+    top: -140px;
+    right: 0;
+}
+.corse1{
+    position: absolute;
+    top: -140px;
+    right: 50%;
+}
