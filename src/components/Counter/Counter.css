@@ -1,0 +1,182 @@
+#counter{
+    background-color: #000324 !important;
+    height: 472px;
+    position: relative;
+}
+.Count{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 336px;
+    height: 353px;
+}
+.countleft{
+    padding: 93px 0;
+}
+.countleft h3{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Urbanist", serif;
+    color: #fff;
+}
+.countleft p{
+    font-size: 20px;
+    font-weight: 200;
+    font-family: "Urbanist", serif;
+    color: #fff;
+    line-height: 30px;
+    padding: 20px 0;
+}
+.count-left1{
+    display: flex;
+    justify-content: space-between;
+}
+.count-right{
+    background-image: url(../../assets/count2.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.countright{
+    height: 392px;
+    width: 392px;
+    background-color: #000324;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: relative;
+}
+.countright h3{
+    width: 230px !important;
+    position: absolute;
+    top: 50px;
+    left: 60%;
+    transform: translateX(-60%);
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Urbanist", serif;
+    -webkit-transform: translateX(-60%);
+    -moz-transform: translateX(-60%);
+    -ms-transform: translateX(-60%);
+    -o-transform: translateX(-60%);
+}
+.countright h4{
+    width: 230px !important;
+    position: absolute;
+    top: 85px;
+    left: 60%;
+    transform: translateX(-60%);
+    color: #F57005;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Urbanist", serif;
+    -webkit-transform: translateX(-60%);
+    -moz-transform: translateX(-60%);
+    -ms-transform: translateX(-60%);
+    -o-transform: translateX(-60%);
+}
+.counting{
+    display: flex;
+}
+.counter1{
+    height: 77px;
+    width: 77px;
+    background-color: #13194F;
+    position: absolute;
+    top: 35%;
+    left: 28%;
+    padding: 25px 10px;
+}
+.counter1 .ctxt{
+    color: #fff;
+    text-align: center;
+    color: #F57005;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 10px;
+}
+.counter1 h6{
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+}
+.counter2 .ctxt{
+    color: #fff;
+    text-align: center;
+    color: #F57005;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 10px;
+}
+.counter2 h6{
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+}
+.counter3 .ctxt{
+    color: #fff;
+    text-align: center;
+    color: #F57005;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 10px;
+}
+.counter3 h6{
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+}
+.counter4 .ctxt{
+    color: #fff;
+    text-align: center;
+    color: #F57005;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 10px;
+}
+.counter4 h6{
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+}
+.counter2{
+    height: 77px;
+    width: 77px;
+    background-color: #13194F;
+    position: absolute;
+    top: 35%;
+    left: 52%;
+    padding: 25px 10px;
+}
+.counting-1{
+    display: flex;
+}
+.counter3{
+    height: 77px;
+    width: 77px;
+    background-color: #13194F;
+    position: absolute;
+    top: 62%;
+    left: 28%;
+    padding: 25px 10px;
+}
+.counter4{
+    height: 77px;
+    width: 77px;
+    background-color: #13194F;
+    position: absolute;
+    top: 62%;
+    left: 52%;
+    padding: 25px 10px;
+}
