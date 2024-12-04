@@ -6,6 +6,8 @@ import Counter from "./components/Counter/Counter"
 import Course from "./components/Course/Course"
 import Menu from "./components/menu/Menu"
 import Service from "./components/Service/Service"
+import Team from "./components/Team/TEam"
+import TEam from "./components/Team/TEam"
 import Testimonial from "./components/Testimonial/Testimonial"
 
 
@@ -21,6 +23,7 @@ function App() {
     <Course/>
     <Counter/>
     <Testimonial/>
+    <Team/>
    </>
   )
 }

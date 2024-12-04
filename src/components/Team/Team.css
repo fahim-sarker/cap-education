@@ -1,0 +1,83 @@
+#team{
+    background-color: #121745;
+    padding: 120px 0;
+}
+.team-text h4{
+    font-size: 24px;
+    font-weight: 700;
+    color: #4F5DE4;
+    font-family: "Urbanist", serif;
+    text-align: center;
+}
+.team-text h3{
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    font-family: "Urbanist", serif;
+    text-align: center;
+}
+.team-members{
+    margin-top: 108px !important;
+}
+.team-member {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .team-image {
+    width: 100%;
+    transition: transform 0.3s ease;
+  }
+  
+  .team-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    text-align: center;
+  }
+  
+  .team-member:hover .team-image {
+    transform: scale(1.1);
+  }
+  
+  .team-member:hover .team-hover {
+    opacity: 1;
+  }
+  
+  .team-hover h5 {
+    font-size: 22px;
+    margin: 10px 0;
+  }
+  
+  .team-hover p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .social-icon {
+    font-size: 20px;
+    color: white;
+    transition: color 0.3s;
+  }
+  
+  .social-icon:hover {
+    color: #bd1f17;
+  }
