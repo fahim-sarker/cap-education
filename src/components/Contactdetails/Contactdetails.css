@@ -1,0 +1,42 @@
+#details{
+    padding: 10px 0 120px 0;
+}
+.detailcard{
+    width: 440px;
+    padding: 48px 0;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.detailcard i{
+    display: flex;
+    justify-content: center;
+    color: #4F5DE4;
+    margin: 0 auto;
+    font-size: 45px;
+}
+.detailcard:hover i{
+    color: #fff !important;
+}
+.detailcard:hover{
+    background-color: #4F5DE4;
+    color: #ffff;
+}
+.detailcard p{
+    text-align: center;
+    font-size: 16px;
+    font-family: "Urbanist", serif;
+    font-weight: 100;
+    margin-top: 20px;
+}
+.detailcard h4{
+    text-align: center;
+    font-size: 24px;
+    font-family: "Urbanist", serif;
+    font-weight: 700;
+    padding: 0;
+}

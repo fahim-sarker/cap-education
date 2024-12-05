@@ -1,0 +1,24 @@
+#areea{
+    padding: 20px 0 120px 0;
+}
+.counarea1{
+    width: 303px;
+    height: 183px;
+    border: dotted #4F5DE4;
+    padding: 57px 0;
+}
+.counarea1 h3{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: "Urbanist", serif;
+    color: #F57005;
+    text-align: center;
+    align-items: center;
+}
+.counarea1 h5{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Urbanist", serif;
+    color: #697585;
+    text-align: center;
+}

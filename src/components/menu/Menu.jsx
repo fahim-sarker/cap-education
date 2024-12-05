@@ -4,6 +4,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Logo from "../../assets/logo.png";
+import { Link } from "react-router-dom";
 
 const Menu = () => {
   return (
@@ -16,14 +17,14 @@ const Menu = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mx-auto">
-              <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#about">About</Nav.Link>
-              <Nav.Link href="#services">Courses</Nav.Link>
-              <Nav.Link href="#contact">Pages</Nav.Link>
-              <Nav.Link href="#contact">Blog</Nav.Link>
-              <Nav.Link href="#contact">Shop</Nav.Link>
+              <Link to="/">Home</Link>
+              <Link to="/about">About</Link>
+              <Link to="">Courses</Link>
+              <Link to="/about">Pages</Link>
+              <Link to="/blog">Blog</Link>
+              <Link to="/about">Shop</Link>
             </Nav>
-            <button className="btn">Get In Touch</button>
+            <button className="btn"><Link to="/contact">Contact</Link></button>
           </Navbar.Collapse>
         </Container>
       </Navbar>

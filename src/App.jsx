@@ -1,29 +1,26 @@
+import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from "react-router-dom"
+import Home from "./Pages/Home"
+import Rootlayout from "./components/Root/Rootlayout"
+import About from "./Pages/About"
+import Contact from "./Pages/Contact"
+import Blog from "./Pages/Blog"
 
-import About from "./components/About/About"
-import Banner from "./components/Banner/Banner"
-import Category from "./components/Category/Category"
-import Counter from "./components/Counter/Counter"
-import Course from "./components/Course/Course"
-import Menu from "./components/menu/Menu"
-import Service from "./components/Service/Service"
-import Team from "./components/Team/TEam"
-import TEam from "./components/Team/TEam"
-import Testimonial from "./components/Testimonial/Testimonial"
 
+
+let router = createBrowserRouter(createRoutesFromElements(
+  <Route element={<Rootlayout/>}>
+    <Route index element={<Home/>}></Route>
+    <Route path="/about" element={<About/>}></Route>
+    <Route path="/contact" element={<Contact/>}></Route>
+    <Route path="/blog" element={<Blog/>}></Route>
+  </Route>
+))
 
 function App() {
 
   return (
    <>
-    <Menu/>
-    <Banner/>
-    <Service/>
-    <About/>
-    <Category/>
-    <Course/>
-    <Counter/>
-    <Testimonial/>
-    <Team/>
+      <RouterProvider router={router}/>
    </>
   )
 }

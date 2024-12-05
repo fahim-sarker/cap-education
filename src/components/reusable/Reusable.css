@@ -1,0 +1,23 @@
+#reusablemain{
+    background-color: black !important;
+    padding: 154px 0 154px 0 !important;
+}
+.workusable a{
+    text-decoration: none;
+    color: #fff;
+}
+.workusable h2{
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    font-family: "Urbanist", serif;
+    text-transform: uppercase;
+}
+.workusable h3{
+    font-size: 20px;
+    font-weight: 100;
+    color: #fff !important;
+    text-align: center;
+    font-family: "Urbanist", serif;
+}

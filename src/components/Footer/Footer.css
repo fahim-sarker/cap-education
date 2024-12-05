@@ -1,0 +1,97 @@
+#footer{
+    background-color: #2A254D;
+    padding-top: 56px;
+}
+.ftimg{
+    width: 100%;
+}
+.flexdiv{
+    display: flex;
+    gap: 20px;
+}
+.ftmain{
+    padding: 120px 0;
+}
+.ft2{
+    height: 44px;
+}
+.ftcol1 p{
+    font-size: 18px;
+    font-family: "Urbanist", serif;
+    color: #B3ADE1;
+    padding: 29px 0;
+    width: 265px;
+}
+.fticon{
+    height: 29px;
+    width: 29px;
+    background-color: #4F5DE4;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    color: #fff;
+}
+.ftr-icon{
+    display: flex;
+    gap: 50px;
+}
+.ftcol2 h3{
+    color: #fff;
+    font-size: 23px;
+    font-weight: 500;
+    font-family: "Urbanist", serif;
+}
+.ftcol2 ul{
+    margin-top: 30px;
+    padding-left: 0;
+}
+.ftcol2 ul li{
+    font-size: 18px;
+    font-family: "Urbanist", serif;
+    font-weight: 200;
+    color: #B3ADE1;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.conicon{
+    color: #F57005 !important;
+}
+.mailinpu{
+    outline: none;
+    background-color: none;
+    padding: 20px 0 20px 20px;
+    font-size: 18px;
+    font-family: "Urbanist", serif;
+    font-weight: 200px;
+    color: #B3ADE1;
+    width: 430px;
+    border: 2px solid #F57005;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: #2A254D;
+}
+.ftrmailbtn{
+    padding: 15px 20px;
+    width: 150px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: "Urbanist", serif;
+    font-weight: 200px;
+    color: #fff;
+    background-color: #F57005;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    outline: none;
+    border: none;
+}
