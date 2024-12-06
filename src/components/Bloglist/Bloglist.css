@@ -1,0 +1,117 @@
+#bloglist{
+    padding: 120px 0;
+}
+.blogcards{
+    width: 416px;
+    height: 488px;
+    background-color: #152B4A;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+    position: relative;
+    margin-bottom: 80px;
+}
+.bloglistcards{
+    position: absolute;
+    bottom: -20px;
+    left: 30px;
+    width: 356px;
+    height: 234px;
+    padding: 30px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.flex1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex1 p{
+    background-color: #4F5DE4;
+    width: 104px;
+    height: 28px;
+    color: #fff;
+    display: flex;
+    font-family: "Urbanist", serif;
+    font-weight: 400;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.flex1 h5{
+    font-size: 16px;
+    color: #F57005;
+    font-family: "Urbanist", serif;
+    font-weight: 500;
+}
+.bloglistcards h3{
+    font-family: "Urbanist", serif;
+    font-size: 24px;
+    color: #2A254D;
+    font-weight: 700;
+    padding: 30px 0;
+}
+.flex2{
+    display: flex;
+    justify-content: space-between;
+}
+.roundded{
+    height: 44px;
+    width: 44px;
+    background-color: #152B4A;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.listtext h5{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Urbanist", serif;
+    color: #152B4A;
+}
+.listtext p{
+    font-size: 16px;
+    font-weight: 200;
+    font-family: "Urbanist", serif;
+    color: #697585;
+}
+.iconlist{
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #F57005;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.iconlist:hover{
+    background-color: #F57005;
+    color: #fff;
+}
+.pagination{
+    justify-content: center !important;
+    margin-top: 30px;
+    gap: 10px;
+}

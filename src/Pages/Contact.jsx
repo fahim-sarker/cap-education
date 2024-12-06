@@ -2,6 +2,7 @@ import React from 'react'
 import Reusable from "../components/reusable/Reusable"
 import Contactform from '../components/Contactform/Contactform'
 import Contactdetails from '../components/Contactdetails/Contactdetails'
+import MAp from '../components/map/MAp'
 
 
 const Contact = () => {
@@ -14,6 +15,7 @@ const Contact = () => {
       />
       <Contactform/>
       <Contactdetails/>
+      <MAp/>
     </>
   )
 }

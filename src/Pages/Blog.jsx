@@ -1,15 +1,17 @@
 import React from 'react'
 import Reusable from "../components/reusable/Reusable"
+import Bloglist from '../components/Bloglist/Bloglist'
 
 
 const Blog = () => {
   return (
     <div>
       <Reusable
-        title="About"
-        subtitle="Home  /  About "
+        title="Blog"
+        subtitle="Home  /  Blog "
         subtitleLink="/"
       />
+      <Bloglist/>
     </div>
   )
 }
