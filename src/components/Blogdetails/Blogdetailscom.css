@@ -1,0 +1,304 @@
+#detail{
+    padding: 120px 0;
+}
+.blogdetailleftblue{
+    background-color: #152B4A;
+    height: 449px;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+}
+.blogdetailsearch{
+    height: 80px;
+    background-color: #F57005;
+    width: 100%;
+    outline: none;
+    border: none;
+    color: #fff !important;
+    padding-left: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Urbanist", serif;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+.blogdetailright ::placeholder{
+    color: #fff;
+}
+.detailflex{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 40px 0 20px 0;
+}
+.detailflex p{
+    height: 24px;
+    width: 124px;
+    color: #fff;
+    font-size: 16px;
+    font-family: "Urbanist", serif;
+    font-weight: 400;
+    background-color: #4F5DE4;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.detailflex h6{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Urbanist", serif;
+    color: #697585;
+}
+.alarm{
+    color: #F57005;
+}
+.blogdetailleft h3{
+    color: #2A254D;
+    font-size: 32px;
+    font-weight: 700;
+    font-family:  "Urbanist", serif;
+}
+.ppara{
+    color: #697585;
+    font-size: 16px;
+    font-weight: 400;
+    font-family:  "Urbanist", serif;
+    padding: 30px 0 50px 0;
+    line-height: 32px;
+}
+.ppara1{
+    color: #697585;
+    font-size: 16px;
+    font-weight: 400;
+    font-family:  "Urbanist", serif;
+    padding-bottom: 50px;
+    line-height: 32px;
+    border-bottom: 2px solid #E4E4E4;
+}
+.blogdetailtags{
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #E4E4E4;
+}
+.blogmenu{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.headtag{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Urbanist", serif;
+    color: #2A254D;
+}
+.head1{
+    background-color: #F6F6F6;
+    padding: 14px 16px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    color: #697585;
+    font-size: 16px;
+    font-weight: 100;
+    font-family: "Urbanist", serif;
+}
+.blogdetailicons{
+    display: flex;
+    gap: 20px;
+}
+.blogdetailicons li{
+    background-color: #F6F6F6;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.commentsdetail{
+    padding: 50px 0;
+}
+.commentsdetail h4{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Urbanist", serif;
+    color: #2A254D;
+}
+.comments1{
+    display: flex;
+    padding: 60px 0;
+    gap: 20px;
+    border-bottom: 2px solid #E4E4E4;
+}
+.commentball{
+    height: 165px;
+    width: 165px;
+    background-color: #152B4A;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.commenttext{
+    width: 673px;
+}
+.commenttext h4{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Urbanist", serif;
+    color: #2A254D;
+    padding: 0;
+}
+.commenttext p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Urbanist", serif;
+    color: #697585;
+    padding: 5px 0;
+    line-height: 32px;
+} 
+.commenttext h5{
+    background-color: #F6F6F6;
+    padding: 14px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 87px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    color: #697585;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Urbanist", serif;
+} 
+.commentform{
+    padding: 50px 0;
+}
+.commentform form{
+    padding: 40px 0;
+}
+.nameinputblog{
+    padding-left: 30px;
+    outline: none;
+    border: none;
+    background-color: #F6F6F6;
+    height: 60px;
+    width: 400px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.emailinputblog{
+    padding-left: 30px;
+    outline: none;
+    border: none;
+    background-color: #F6F6F6;
+    height: 60px;
+    width: 400px;
+    margin-left: 20px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.messagearea{
+    padding: 24px 0 0 30px;
+    margin-top: 30px;
+    height: 211px !important;
+    outline: none;
+    border: none;
+    background-color: #F6F6F6;
+    height: 60px;
+    width: 820px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.blogdetailbtn{
+    height: 56px;
+    width: 235px;
+    background-color: #F57005;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Urbanist", serif;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.latestpost {
+    margin: 35px 0;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+}
+.latesttext{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Urbanist", serif;
+    color: #2A254D;
+    padding-bottom: 30px;
+    border-bottom: dotted #F57005;
+}
+.latesetcon1{
+    padding: 30px 0;
+    display: flex;
+    gap: 20px;
+    border-bottom: 2px solid #E4E4E4;
+}
+.conbox{
+    height: 89px !important;
+    width: 89px !important;
+    background-color: #152B4A;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.context{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Urbanist", serif;
+    color: #2A254D;
+    line-height: 26px;
+    width: 240px;
+}

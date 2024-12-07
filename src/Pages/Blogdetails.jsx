@@ -1,5 +1,6 @@
 import React from 'react'
 import Reusable from "../components/reusable/Reusable"
+import Blogdetailscom from '../components/Blogdetails/Blogdetailscom'
 
 
 const Blogdetails = () => {
@@ -10,6 +11,7 @@ const Blogdetails = () => {
         subtitle="Home  /  Blog details "
         subtitleLink="/"
       />
+      <Blogdetailscom/>
     </>
   )
 }
