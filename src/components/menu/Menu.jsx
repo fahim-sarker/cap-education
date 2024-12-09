@@ -19,7 +19,7 @@ const Menu = () => {
             <Nav className="mx-auto">
               <Link to="/">Home</Link>
               <Link to="/about">About</Link>
-              <Link to="">Courses</Link>
+              <Link to="/course">Courses</Link>
               <Link to="/about">Pages</Link>
               <Link to="/blog">Blog</Link>
               <Link to="/about">Shop</Link>

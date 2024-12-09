@@ -1,0 +1,103 @@
+#teacherpersonalinfo{
+    padding: 120px 0;
+}
+.teacherimage{
+    width: 100% !important;
+    height: 700px;
+    border-radius: 20%;
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    -ms-border-radius: 20%;
+    -o-border-radius: 20%;
+}
+.teacherinfo h4{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "Urbanist", serif;
+    color: #2A254D;
+}
+.teacherinfo h5{
+    font-size: 20px;
+    font-weight: 100;
+    font-family: "Urbanist", serif;
+    color: #F57005;
+}
+.teacherinfo h6{
+    font-size: 16px;
+    font-weight: 100;
+    font-family: "Urbanist", serif;
+    color: #697585;
+    line-height: 32px;
+}
+.teacherinfo p{
+    font-size: 16px;
+    font-weight: 100;
+    font-family: "Urbanist", serif;
+    color: #697585;
+    line-height: 32px;
+    padding: 50px 0;
+}
+.teacherinfo h2{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Urbanist", serif;
+    color: #2A254D !important;
+}
+.percentline{
+    width: 100%;
+    height: 8px;
+    background-color: #E4E4E4;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+.uxpercent{
+    width: 80%;
+    height: 8px;
+    background-color: #4F5DE4;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+.percentflex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.info-icon{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    padding: 30px 0;
+}
+.infoicon{
+    height: 29px;
+    width: 29px;
+    background-color: #F6F6F6;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    color: #2A254D;
+}
+.infobtn{
+    width: 194px;
+    height: 56px;
+    background-color: #F57005 !important;
+    color: #fff !important;
+    font-size: 16px !important;
+    border: none;
+    font-family: "Urbanist", serif !important;
+    font-weight: 600 !important;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}

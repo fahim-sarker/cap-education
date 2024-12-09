@@ -5,8 +5,8 @@ import { FaArrowRightLong } from 'react-icons/fa6';
 import { Link } from 'react-router-dom';
 
 const Bloglist = () => {
-  const [currentPage, setCurrentPage] = useState(1);
-  const blogsPerPage = 6; 
+  let [currentPage, setCurrentPage] = useState(1);
+  let blogsPerPage = 6; 
 
   const blogs = new Array(12).fill(null).map((_, index) => ({
     category: 'Development',
@@ -16,13 +16,13 @@ const Bloglist = () => {
     position: 'Fronted Developer',
   }));
 
-  const indexOfLastBlog = currentPage * blogsPerPage;
-  const indexOfFirstBlog = indexOfLastBlog - blogsPerPage;
-  const currentBlogs = blogs.slice(indexOfFirstBlog, indexOfLastBlog);
+  let indexOfLastBlog = currentPage * blogsPerPage;
+  let indexOfFirstBlog = indexOfLastBlog - blogsPerPage;
+  let currentBlogs = blogs.slice(indexOfFirstBlog, indexOfLastBlog);
 
-  const totalPages = Math.ceil(blogs.length / blogsPerPage);
+  let totalPages = Math.ceil(blogs.length / blogsPerPage);
 
-  const handlePageChange = (pageNumber) => {
+  let handlePageChange = (pageNumber) => {
     setCurrentPage(pageNumber);
   };
 

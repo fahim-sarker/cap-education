@@ -5,6 +5,9 @@ import About from "./Pages/About"
 import Contact from "./Pages/Contact"
 import Blog from "./Pages/Blog"
 import Blogdetails from "./Pages/Blogdetails"
+import Teacherdetails from "./Pages/Teacherdetails"
+import Course from "./Pages/Coursepage"
+
 
 
 
@@ -15,6 +18,8 @@ let router = createBrowserRouter(createRoutesFromElements(
     <Route path="/contact" element={<Contact/>}></Route>
     <Route path="/blog" element={<Blog/>}></Route>
     <Route path="/blogdetails" element={<Blogdetails/>}></Route>
+    <Route path="/teacherdetails" element={<Teacherdetails/>}></Route>
+    <Route path="/course" element={<Coursepage/>}></Route>
   </Route>
 ))
 
