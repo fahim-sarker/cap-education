@@ -7,6 +7,8 @@ import Coach2 from "../../assets/mind.png"
 import Coach3 from "../../assets/record.png"
 import Coach4 from "../../assets/cvideo.png"
 import { IoIosArrowForward } from "react-icons/io";
+import {motion} from "framer-motion"
+import { fadein } from '../../Variants'
 
 
 const Service = () => {
@@ -18,44 +20,67 @@ const Service = () => {
         <Container>
             <Row>
                 <Col lg={3}>
-                    <div className="card">
+                    <motion.div 
+                    variants={fadein("left", 0.5)}
+                    initial="hidden"
+                    whileInView={"show"}
+                    viewport={{once: false, amount: 0.7}}
+                    
+                    className="card">
                         <div className="card-img">
                             <img src={Coach3} alt="Coach" />
                         </div>
                         <h3>Exclusive Coach</h3>
                         <p>Lorem ipsum dolor sit amet consectetur. Convallis ornare semper id hendrerit diam. Mauris cursus suscipit </p>
                         <a href="#">Read More<IoIosArrowForward className='icons'/></a>
-                    </div>
+                    </motion.div>
                 </Col>
                 <Col lg={3}>
-                    <div className="card">
+                    <motion.div 
+                    variants={fadein("left", 0.5)}
+                    initial="hidden"
+                    whileInView={"show"}
+                    viewport={{once: false, amount: 0.7}}
+                    
+                    className="card">
                         <div className="card-img">
-                            <img src={Coach4} alt="Coach" />
+                            <img src={Coach3} alt="Coach" />
                         </div>
-                        <h3>Creative Minds</h3>
+                        <h3>Exclusive Coach</h3>
                         <p>Lorem ipsum dolor sit amet consectetur. Convallis ornare semper id hendrerit diam. Mauris cursus suscipit </p>
                         <a href="#">Read More<IoIosArrowForward className='icons'/></a>
-                    </div>
+                    </motion.div>
                 </Col>
                 <Col lg={3}>
-                    <div className="card">
+                    <motion.div 
+                    variants={fadein("left", 0.5)}
+                    initial="hidden"
+                    whileInView={"show"}
+                    viewport={{once: false, amount: 0.7}}
+                    
+                    className="card">
                         <div className="card-img">
-                            <img src={Coach2} alt="Coach" />
+                            <img src={Coach3} alt="Coach" />
                         </div>
-                        <h3>Video Tutorials</h3>
+                        <h3>Exclusive Coach</h3>
                         <p>Lorem ipsum dolor sit amet consectetur. Convallis ornare semper id hendrerit diam. Mauris cursus suscipit </p>
                         <a href="#">Read More<IoIosArrowForward className='icons'/></a>
-                    </div>
+                    </motion.div>
                 </Col>
                 <Col lg={3}>
-                    <div className="card">
+                    <motion.div 
+                    variants={fadein("left", 0.5)}
+                    initial="hidden"
+                    whileInView={"show"}
+                    viewport={{once: false, amount: 0.7}}
+                    className="card">
                         <div className="card-img">
-                            <img src={Coach} alt="Coach" />
+                            <img src={Coach3} alt="Coach" />
                         </div>
-                        <h3>Worlds Record</h3>
+                        <h3>Exclusive Coach</h3>
                         <p>Lorem ipsum dolor sit amet consectetur. Convallis ornare semper id hendrerit diam. Mauris cursus suscipit </p>
                         <a href="#">Read More<IoIosArrowForward className='icons'/></a>
-                    </div>
+                    </motion.div>
                 </Col>
             </Row>
         </Container>

@@ -6,7 +6,7 @@ import Contact from "./Pages/Contact"
 import Blog from "./Pages/Blog"
 import Blogdetails from "./Pages/Blogdetails"
 import Teacherdetails from "./Pages/Teacherdetails"
-import Course from "./Pages/Coursepage"
+import Coursepage from "./Pages/Coursepage"
 
 
 
